@@ -2,7 +2,7 @@
 
 I’m a mobile engineer with ~4 years of experience building reliable, user-facing mobile systems, with a strong focus on state management, domain logic, and offline-capable architectures.
 
-I’ve shipped production apps on Android and iOS, working primarily with Kotlin (Android / Multiplatform) and SwiftUI. I care deeply about how applications behave over time — not just how they look on day one.
+I’ve shipped production apps on Android and iOS, working primarily with Kotlin (Android / Multiplatform) and SwiftUI. I care deeply about how applications behave over time not just how they look on day one.
 
 My approach to architecture is pragmatic and constraint-driven. I start with simple, explicit solutions (KISS / YAGNI), ship something that works, and let real problems earn their abstractions. Over-engineering on day one is just technical debt with better naming.
 
