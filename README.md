@@ -1,9 +1,15 @@
-I'm a mobile engineer with ~4 years of experience building reliable, user-facing mobile systems, with a strong focus on state management, domain logic, and offline-capable architectures. I've shipped production apps on Android and iOS, working primarily with Kotlin (Android / Multiplatform) and SwiftUI, and I care deeply about how applications behave over time not just how they look on day one.
+### 👋 Hi, I’m a mobile engineer
 
-One thing I've learned from working on long-lived codebases: good architecture isn't something you design upfront in full it's something you earn through real constraints. I start with KISS and YAGNI, ship something that works, and let actual problems drive the evolution. Over-engineering on day one is just technical debt with better naming.
+I’m a mobile engineer with ~4 years of experience building reliable, user-facing mobile systems, with a strong focus on state management, domain logic, and offline-capable architectures.
 
-My personal project, Yuko, is a good example of this. It started as a simple habit tracker. As requirements grew, so did the architecture deliberately. It now includes an outbox-based offline sync system, a pure-function reducer Store for some feature state management, a domain-driven dialogue engine with specification-pattern condition matching, CQRS-lite command handlers for write operations, and a result-chaining pattern for handling local/remote error paths cleanly. None of these were added upfront. Each layer earned its place when the problem actually demanded it.
+I’ve shipped production apps on Android and iOS, working primarily with Kotlin (Android / Multiplatform) and SwiftUI. I care deeply about how applications behave over time — not just how they look on day one.
 
-In my professional work, I've applied the same mindset to legacy systems. I've migrated a 1,200-line callback-heavy presenter with 6+ nested callbacks and blocking Thread + join() calls into a clean UseCase + Strategy pattern with proper error isolation. I've reduced 650 lines of UI-coupled conditional visibility logic buried inside an Android View subclass down to 76 lines of pure Kotlin in the domain layer, with unlimited recursive nesting and full unit test coverage. These weren't greenfield rewrites. They were incremental, constraint-driven improvements made on a live production codebase.
+My approach to architecture is pragmatic and constraint-driven. I start with simple, explicit solutions (KISS / YAGNI), ship something that works, and let real problems earn their abstractions. Over-engineering on day one is just technical debt with better naming.
 
-I tend to prefer boring, explicit solutions over clever abstractions especially when code needs to be readable and maintainable by future teammates. Most of my design decisions are driven by real constraints: unreliable networks, evolving product requirements, and long-term codebase health. I'm open to global remote opportunities and enjoy working on consumer-facing products where engineering quality directly impacts user trust and experience.
+I’m particularly interested in:
+- Offline & offline-first architectures (outbox-based sync, deferred execution)
+- Predictable state management (MVVM / MVI / Redux-style)
+- Moving complex business rules out of the UI layer
+- Long-lived codebases and incremental refactoring
+
+I enjoy working on consumer-facing products where engineering quality directly impacts user trust and experience.
