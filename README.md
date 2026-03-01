@@ -1,4 +1,4 @@
-### 👋 Hi, I’m a mobile engineer
+### 👋 Hi, I’m Dwi Prasetyo
 
 I’m a mobile engineer with ~4 years of experience building reliable, user-facing mobile systems, with a strong focus on state management, domain logic, and offline-capable architectures.
 
