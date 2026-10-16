@@ -17,8 +17,10 @@ I start with simple, explicit solutions (KISS / YAGNI), ship something that work
 - Moving business rules out of the UI layer
 - Incremental refactoring of long-lived codebases
 
+**Side Project**
+- [Yuko-Gamify](https://play.google.com/store/apps/details?id=com.kakapo.yukoapp.beta&hl=id): KMP productivity app (Android, iOS, Spring Boot) with ~940 automated tests, including pipeline tests on a real SQLDelight stack and 61 "sabotage checks" to prove the tests can fail.
+
 **Open source**
-- [Yuko-Gamify]: KMP productivity app (Android, iOS, Spring Boot) with ~940 automated tests, including pipeline tests on a real SQLDelight stack and 61 "sabotage checks" to prove the tests can fail.
 - [Oakane](https://github.com/Uwi0/Oakane): KMP personal finance app with a shared business layer, Compose and SwiftUI clients.
 
 **Stack:** Kotlin · Jetpack Compose · Coroutines/Flow · Hilt · WorkManager · Room · Kotlin Multiplatform · SQLDelight · SwiftUI
